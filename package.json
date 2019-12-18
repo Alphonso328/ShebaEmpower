@@ -5,10 +5,10 @@
     "main": "index.js",
     "scripts": {
         "start": "gulp",
-        "deploy": "gh-pages -d scr",
+        "deploy": "gh-pages -d src",
         "build": "npm run build-css && npm run build-js"
     },
-    "author": "Brad Traversy",
+    "author": "Ricardo Cunningham",
     "license": "MIT",
     "homepage": "https://Alphonso328.github.io/ShebaEmpowerment",
     "dependencies": {
