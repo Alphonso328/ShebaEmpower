@@ -1,0 +1,39 @@
+{
+    "name": "bs4starter",
+    "version": "1.0.0",
+    "description": "Bootstrap 4 starter workflow",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp",
+        "deploy": "gh-pages -d scr",
+        "build": "npm run build-css && npm run build-js"
+    },
+    "author": "Brad Traversy",
+    "license": "MIT",
+    "homepage": "https://Alphonso328.github.io/ShebaEmpowerment",
+    "dependencies": {
+        "bootstrap": "^4.1.1",
+        "chokidar": "^3.2.3",
+        "font-awesome": "^4.7.0",
+        "gh-pages": "^2.1.1",
+        "jquery": "^3.2.1",
+        "npm-check-unused": "^6.0.0",
+        "popper.js": "^1.11.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "browser-sync": "^2.18.13",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2"
+    }
+}
