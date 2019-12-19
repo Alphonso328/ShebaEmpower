@@ -30,13 +30,13 @@ gulp.task('serve', gulp.parallel(['sass'], function() {
 // Move Fonts Folder to src/fonts
 gulp.task('fonts', gulp.parallel(function() {
     return gulp.src('node_modules/font-awesome/fonts/*')
-        .pipe(gulp.dest("src/fonts"));
+        .pipe(gulp.dest("src/fonts", "dist/fonts"));
 }));
 
 // Move Font Awesome CSS to src/css
 gulp.task('fa', gulp.parallel(function() {
     return gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
-        .pipe(gulp.dest("src/css"));
+        .pipe(gulp.dest("src/css", "dist/css"));
 }));
 
 gulp.task('default', gulp.series(['js', 'serve', 'fa', 'fonts']));

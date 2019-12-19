@@ -6,7 +6,6 @@
     "scripts": {
         "start": "gulp",
         "deploy": "gh-pages -d src"
-
     },
     "author": "Ricardo Cunningham",
     "license": "MIT",
