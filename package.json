@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "gulp",
-        "deploy": "gh-pages -d src",
-        "build": "npm run build-css && npm run build-js"
+        "deploy": "gh-pages -d src"
+
     },
     "author": "Ricardo Cunningham",
     "license": "MIT",
